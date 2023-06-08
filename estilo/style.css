@@ -10,45 +10,35 @@
 
 .cabecalho{
     text-align: center;  
-    
 }
 
 .cabecalho_link{
     text-decoration: none;
     font-family: 'Work Sans', sans-serif;
-    
-
 }
 
 .corpo_titulo{
-    padding-bottom: 1%;
-    padding-left: 1%;
-    padding-top: 5%;
+    margin: 5% 0% 1% 1%;
     font-family: 'Roboto', sans-serif;
 }
 
 .corpo_texto{
-    padding-bottom: 4%;
-    padding-left: 1%;
+    margin: 0% 0% 4% 1%;
     width: 75%;
     font-family: 'Roboto', sans-serif;
     text-indent: 1%
 }
 
 .imagem1{
-    padding-left: 4.5%;
-    
+    margin:0% 0% 0% 4.5%;   
 }
 
 .label1{
-    padding-left: 5.6%;
-    text-decoration: none;
-    
+    margin: 0% 0% 0% 6%;
+    text-decoration: none;   
 }
 
 /* Pagina Broxada*/
-
-
 
 .texto2{
     width: 50%;
@@ -56,14 +46,17 @@
     text-indent: 1%;
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
-    
-    
 }
 
+.pai__imagem{
+    display: flex;
+    justify-content: center;
+}
+
+
+
 .imagem2{
-    margin: auto;
-    margin-top:  5%;
-    margin-bottom: 3%;
+    margin: 5% 0% 2% 0%
 }
 
 
@@ -90,22 +83,20 @@
 
     .corpo_texto{
         text-indent: 4%;
-        margin-left: 4% ;
-        margin-bottom: 4%;
-        margin-top: 2%;
+        margin: 3% 0% 4% 4%
     }
 
     .fragmentos{
         margin: auto;
         box-sizing: border-box;
-        
         flex-direction: column;
     }
 
     .label1{
-       margin-left: 15%;
-        
+       margin-left: 15%; 
     }
+
+    /* Pagina 2*/
 
     .principal2{
         box-sizing: border-box;
@@ -114,11 +105,8 @@
     }
     
     .texto2{
-        margin-top: 2%;
         width: 90%;
-        margin-left: 4%;
+        margin: 2% 4%;
         text-align: justify;
-        
-    
     }
 }
