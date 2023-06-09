@@ -29,13 +29,25 @@
     text-indent: 1%
 }
 
+.fragmentos{
+    box-sizing: border-box;
+    display: flex;
+    gap: 80px;
+}
+
 .imagem1{
-    margin:0% 0% 0% 4.5%;   
+    margin:0% 0% 0% 20%;   
 }
 
 .label1{
-    margin: 0% 0% 0% 6%;
-    text-decoration: none;   
+    margin: 0% 0% 0% 28%;
+    text-decoration: none;  
+    color: rgba(0, 0, 0, 0.692); 
+}
+
+.label2{
+    text-decoration:none;
+    color: rgba(0, 0, 0, 0.692);
 }
 
 /* Pagina Broxada*/
@@ -55,7 +67,7 @@
 
 
 
-.imagem2{
+.imagem1_1{
     margin: 5% 0% 2% 0%
 }
 
@@ -65,6 +77,18 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+}
+
+/* Pagina Guardioes da Galaxia*/
+
+.texto3{
+    width: 50%;
+    margin: auto;
+    text-indent: 1%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    text-align: left;
+    text-indent: 2%;
 }
 
 /* versoes mobile */
